@@ -29,6 +29,10 @@
      end
    end
    
+   def add_song
+     
+   end
+   
    def genre=(genre)
      if @genre == nil
        @genre = genre
