@@ -1,3 +1,4 @@
+require_raltive 'lib/concerns/finadable'
  class Artist 
    
     extend Concerns::Findable
