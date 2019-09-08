@@ -59,7 +59,7 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
-    # self.save
+    self.save
   end
 
   def self.all
@@ -88,7 +88,7 @@ class Artist
 
       song.artist = self unless song.artist
       songs << song unless songs.include?(song)
-      # @songs.uniq!
+       @songs.uniq!
 
   end
 
