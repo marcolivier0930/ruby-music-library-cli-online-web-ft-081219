@@ -8,6 +8,7 @@
      @name = name 
      self.artist = artist if artist
      self.genre = genre if genre
+     save
    end
    
    def self.all
