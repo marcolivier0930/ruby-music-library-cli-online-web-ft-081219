@@ -45,9 +45,11 @@
     if @artist == nil 
       @artist = artist 
     end
-    if self.artist != 
-      
+    
+    if self.artist != nil 
+      @artist.add_song 
     end
+    @artist 
    end
    
  end
