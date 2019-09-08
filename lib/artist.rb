@@ -8,7 +8,7 @@ require_relative '../lib/concerns/findable.rb'
    
    @@all = []
    
-   def initialize(name, song)
+   def initialize(name)
      @name = name 
      save 
      @songs = []
