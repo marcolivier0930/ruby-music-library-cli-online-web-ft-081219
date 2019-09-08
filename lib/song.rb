@@ -41,4 +41,13 @@
      @genre
    end
    
+   def artist=(artist)
+    if @artist == nil 
+      @artist = artist 
+    end
+    if self.artist != 
+      
+    end
+   end
+   
  end
